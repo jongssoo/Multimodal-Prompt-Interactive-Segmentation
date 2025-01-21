@@ -1,0 +1,8 @@
+{
+    "dataset_name": "AbdomenCT-1k",
+    "categories": ["liver", "kidney", "spleen", "pancreas"],
+    "demo_case": {
+        "ct_path": "path/to/ct",
+        "gt_path": "path/to/gt" 
+    }
+}
