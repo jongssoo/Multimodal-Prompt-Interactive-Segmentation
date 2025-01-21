@@ -1,15 +1,21 @@
-## Multimodal-Prompt-Interactive-Segmentation
+# Multimodal-Prompt-Interactive-Segmentation
 
-# Model Training
+## Model Training
 
 This repository is for training a model consisting of three components: **Mask_Segmentor**, **Text_Predictor**, and **Sequence Module**. Below is the guide to properly set up the dataset, preprocess the data, and run the training process.
 
 ## Dataset Structure
 
 To train the model, the dataset needs to be structured as follows:
-
-Dataset/ ├── Firefly/ │ ├── train/ │ └── val/ ├── HRF/ ├── CHASE_DB1/ └── ...
-
+```bash
+Dataset
+├── Firefly
+│ ├── train
+│ └── val
+├── HRF
+├── CHASE_DB1
+└── ...
+```
 Each dataset folder (e.g., `Firefly`, `HRF`) should contain subdirectories for `train` and `val` sets.
 
 ## Preprocessing
